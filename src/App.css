@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.box {
+  border: 1px solid;
+  max-width: 800px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -17,6 +22,50 @@
 .relase-place {
   color: gray;
   text-align: left;
+}
+
+.relase-place .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px 25px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.relase-place .overview {
+  font-size: 25px;
+}
+
+.relase-place .poster-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  border-right: 1px solid;
+  margin-right: 15px;
+}
+
+.relase-place .posterimg {
+  width: 200px;
+  height: 300px;
+}
+
+.scroll_down {
+  width: 100px;
+  height: 25px;
+  background: black;
+  cursor: pointer;
+}
+
+.scroll_down:hover {
+  background: gray;
 }
 
 .App-header {
@@ -37,6 +86,30 @@
           justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.relase-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.advanced-search {
+  margin-top: 100px;
+  width: 500px;
+  height: 700px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.advanced-search .advanced-search-header {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 50px;
+  height: 1000px;
+  border: 1px solid black;
 }
 
 .App-link {

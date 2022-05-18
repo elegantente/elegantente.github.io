@@ -1,8 +1,11 @@
 .App {
     text-align: center;
   }
-  
-  .App-logo {
+  .box{
+    border: 1px solid;
+    max-width: 800px;
+  }
+  .App-logo{
     height: 40vmin;
     pointer-events: none;
   }
@@ -15,8 +18,48 @@
   .relase-place{
       color:gray;
       text-align: left;
+
+     
+
+    .box{
+      display: flex;
+      margin:25px 25px;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+
+    }
+
+.overview{
+  font-size: 25px;
+}
+
+
+      .poster-holder{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        border-right: 1px solid;
+        margin-right: 15px;
+      }
+
+      .posterimg{
+        width: 200px;
+        height: 300px;
+      }
   }
 
+
+  .scroll_down{
+    width: 100px;
+    height: 25px;
+    background:black;
+    cursor: pointer;
+    &:hover{
+      background: gray;
+    }
+  }
   .App-header {
     background-color: white;
     min-height: 100vh;
@@ -28,6 +71,28 @@
     color: white;
   }
   
+  .relase-holder{
+    display: flex;
+  }
+  
+  .advanced-search{
+    margin-top: 100px;
+    width: 500px;
+    height: 700px;
+    position: sticky;
+    top: 0;
+    .advanced-search-header{
+      color: black;
+      font-size: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    height: 1000px;
+    border: 1px solid black;
+
+    }
+  }
+  
+
   .App-link {
     color: #61dafb;
   }
