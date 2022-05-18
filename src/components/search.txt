@@ -1,0 +1,5 @@
+1 kategorie 
+2 sortuj od najpopularniejszego | najmniejpopularnego
+3 minimum  x/10 
+4 dla dorosłych ? 
+5 original_language 

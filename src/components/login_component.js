@@ -8,7 +8,7 @@ import axios from 'axios'
 
 const Login = () => {
 
-  const [page,setPage] = useState(7)
+  const [page,setPage] = useState(1)
 
 console.log(page)
 
