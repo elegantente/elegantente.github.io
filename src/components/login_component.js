@@ -4,8 +4,6 @@ import axios from 'axios'
 
 
 
-
-
 const Login = () => {
 
   const [page,setPage] = useState(1)
@@ -13,6 +11,11 @@ const Login = () => {
 console.log(page)
 
   useEffect(()=>{
+
+
+
+
+
     var config = {
       method: 'get',
       url: 'https://api.themoviedb.org/3/movie/upcoming?api_key=6bba403051b76af0cbe8fa3816db1c9b&page='+page,
@@ -60,17 +63,11 @@ console.log(page)
           
         <header className="App-header" >
 <div className="relase-holder">
-      <div className="advanced-search">
-<div className="advanced-search-header">
-  Category
-          <select >
-            <option>Horror</option>
-            <option>Horror2</option>
-          </select>
-<button></button>
-</div>
         
-      </div>
+
+
+
+        
           <div className="relase-place" >    
           </div> 
        
@@ -78,7 +75,9 @@ console.log(page)
           </div>
           <button className="scroll_down" onClick={(_)=>{
             setPage(page+1)
-          }}></button>
+          }}>
+            <p className="down-s"><i class="arrow-down"></i></p>
+          </button>
         </header>
       )    
 
