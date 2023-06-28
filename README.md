@@ -3,5 +3,4 @@ application for keeping track of the latest movie premieres and the latest movie
 
 https://main.d1hckwdad34swb.amplifyapp.com/
 
-used:
-aws,js,scss,html
+used: netlify,js,scss,html
