@@ -1,6 +1,9 @@
 
-application for keeping track of the latest movie premieres and the latest movies
+what's that?:
+* application for keeping track of the latest movie premieres and the latest movies
 
-https://main.d1hckwdad34swb.amplifyapp.com/
+link:
+* https://taupe-sunshine-84eac3.netlify.app/
 
-used: netlify,js,scss,html
+used: 
+* netlify,js,scss,html
