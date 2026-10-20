@@ -7,3 +7,5 @@ link:
 
 used: 
 * netlify,js,scss,html
+
+<img width="1130" height="807" alt="image" src="https://github.com/user-attachments/assets/59135aff-d11a-4be2-86bd-6a3bb08d414e" />
